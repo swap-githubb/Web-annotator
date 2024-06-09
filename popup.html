@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Annotator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="libs/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div id="color-picker">
+    <label for="highlight-color">Select Highlight Color:</label>
+    <input type="color" id="highlight-color" name="highlight-color" value="#ffff00">
+  </div>
+  <div id="search-section">
+    <label for="search-annotations">Search Annotations:</label>
+    <input type="text" id="search-annotations" name="search-annotations" placeholder="Search...">
+  </div>
+  <button id="view-annotations">View Annotations</button>
+  <button id="export-annotations">Export Annotations</button>
+  <div id="annotations-list" style="display: none;"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
