@@ -1,3 +1,6 @@
+
+// to write content 
+
 let currentHighlightColor = "yellow";
 
 document.addEventListener("mouseup", () => {
